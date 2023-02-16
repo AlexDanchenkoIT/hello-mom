@@ -1,4 +1,143 @@
+* {  /* сброс всех стилей */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
 h1 {
   font-size: 30px;
-  color: blue;
+  color: rgb(126, 126, 221);
+}
+
+.container {
+ background-color: rgb(0, 0, 0);
+ background-image: url(https://gamerwall.pro/uploads/posts/2022-03/1647980220_38-gamerwall-pro-p-programmirovanie-fon-krasivie-50.jpg);
+ /* width: 1920px;
+ height: 1080px; */
+ max-width: 100%;
+ max-height: 100%;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+
+}
+
+.text-start {
+  text-align: center;
+}
+
+.container-film {
+  background-color: rgb(202, 207, 207);
+  background-image: url(https://images.wallpaperscraft.ru/image/single/fon_temnyj_pelena_87441_1920x1080.jpg);
+  background-repeat: no-repeat; /* фоновая каринка не повторяется */ 
+  background-attachment: fixed; /* фоновая картинка зафиксирована (статичный фон) */
+}
+
+.main {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  margin-top: 20px;
+  font-size: 30px;
+  font-style: italic;
+  text-shadow: 10px;
+  color: rgb(221, 148, 65);
+  text-align: center;
+}
+
+.image {
+  margin-top: 20px;
+}
+
+.img-avatar {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+}
+
+button {
+  padding: 5px;
+  border-radius: 30px;
+  background-color: rgb(12, 102, 236);
+  border: none;
+  color: aliceblue;
+  line-height: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: transform .5s;
+}
+
+button:hover {
+  transform: scale(1.3)
+}
+
+.button-text {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.click-text {
+  color: rgb(221, 148, 65);
+  font-size: 20px;
+  text-align: center;
+}
+
+.text-movies {
+  margin-top: 20px;
+  transition: transform .5s; /* (0,5 сек происходит действие) увеличение элемента при наведении курсора */
+  font-size: 20px;
+}
+
+.text-movies:hover {
+  transform: scale(1.3); /* (в полтора раза)увеличение элемента при наведении курсора */
+}
+
+a {
+  text-decoration: none;
+  color: brown;
+}
+
+.url-movies {
+  color: rgb(182, 182, 216);
+}
+
+.movies {
+  margin-top: 20px;
+}
+
+.poster {
+  margin-top: 20px;
+}
+
+.img-poster {
+  border-radius: 7%;
+  width: 100%;
+}
+
+.url-movies {
+  text-align: center;
+}
+
+.name-movie {
+  font-size: 20px;
+  color: rgb(126, 29, 29);
+}
+
+.name-movie:hover {
+  text-decoration: underline;
+}
+
+.header-text {
+  color: brown;
+  text-shadow: 5px 5px 5px red; /*добавляем тень к тексту, box-shadow добавляет тень к блоку*/
+}
+
+.catalog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

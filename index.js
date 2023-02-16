@@ -2,5 +2,5 @@ const button = document.querySelector('button')
 const output = document.querySelector('.output')
 
 button.addEventListener('click', function(){
-  output.innerHTML = 'мама я тебя люблю❤'
+  output.innerHTML = `<p class="click-text">У тебя точно все получится, главное не сдавайся😎</p>`
 })
